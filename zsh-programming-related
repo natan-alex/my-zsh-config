@@ -1,0 +1,4 @@
+# dotnet 
+export PATH=$PATH:$HOME/Apps/dotnet-sdk-6.0.301
+
+DOTNET_CLI_TELEMETRY_OPTOUT=true
