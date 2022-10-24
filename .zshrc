@@ -21,6 +21,3 @@ source $ZDOTDIR/zsh-plugins
 source $ZDOTDIR/zsh-aliases
 source $ZDOTDIR/zsh-programming-related
 source $ZDOTDIR/zsh-bindings
-
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
