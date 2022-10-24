@@ -1,0 +1,11 @@
+setopt appendhistory
+
+setopt autocd extendedglob nomatch menucomplete
+setopt interactive_comments
+
+# prevent freeze when ctrl+s
+unsetopt flow_control
+
+# beeping is annoying
+unsetopt BEEP
+

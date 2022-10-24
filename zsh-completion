@@ -1,0 +1,5 @@
+zstyle ":completion:*" matcher-list "" "m:{a-zA-Z}={A-Za-z}" "r:|=*" "l:|=* r:|=*"
+zstyle ":completion:*" menu select
+autoload -U compinit
+zmodload zsh/complist && compinit
+_comp_options+=(globdots)

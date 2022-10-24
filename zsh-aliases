@@ -1,0 +1,5 @@
+alias cl="clear"
+alias cls="clear"
+alias ..="cd .."
+alias rm="rm -I"
+alias ls="ls --color=auto"
