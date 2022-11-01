@@ -1,3 +1,4 @@
 export KEYTIMEOUT=1
 export EDITOR="nvim"
 export BROWSER="brave"
+export HISTCONTROL=ignoreboth
