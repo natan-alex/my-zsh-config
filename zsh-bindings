@@ -13,11 +13,11 @@ bindkey "^[[3;5~" delete-word
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 
-bindkey "^n" autosuggest-accept
+bindkey "^n" accept-line
 
 # history related
 bindkey "^k" up-line-or-beginning-search
-bindkey "^j" down-line-or-beginning-search
+bindkey "^j" down-line-or-select
 bindkey "^r" history-incremental-search-backward
 
 # vim
