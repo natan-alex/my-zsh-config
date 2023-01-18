@@ -1,4 +1,3 @@
-# to enable vi mode
 bindkey -v
 
 bindkey "^[[P" delete-char
@@ -15,14 +14,14 @@ bindkey "^[[F" end-of-line
 
 # history related
 bindkey "^k" up-line-or-beginning-search
-bindkey "^j" down-line-or-select
-bindkey "^p" up-line-or-history
-bindkey "^n" down-line-or-history
+bindkey "^j" down-line-or-beginning-search
 bindkey "^r" history-incremental-search-backward
 
-# vim
+# suggestions
+bindkey "^n" autosuggest-accept
+
+# vim like bindings in menu
 bindkey -M menuselect "^h" vi-backward-char
 bindkey -M menuselect "^l" vi-forward-char
 bindkey -M menuselect "^k" vi-up-line-or-history
 bindkey -M menuselect "^j" vi-down-line-or-history
-bindkey "^e" edit-command-line

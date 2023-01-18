@@ -8,4 +8,3 @@ unsetopt flow_control
 
 # beeping is annoying
 unsetopt BEEP
-

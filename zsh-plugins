@@ -3,5 +3,5 @@
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # autosuggestions
-# https://github.com/marlonrichert/zsh-autocomplete.git
-source $ZDOTDIR/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# https://github.com/zsh-users/zsh-autosuggestions.git
+source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

@@ -14,9 +14,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # source other config files
 source $ZDOTDIR/zsh-env-variables
 source $ZDOTDIR/zsh-general-configs
-source $ZDOTDIR/zsh-autoloads
 source $ZDOTDIR/zsh-options
 source $ZDOTDIR/zsh-plugins
 source $ZDOTDIR/zsh-aliases
 source $ZDOTDIR/zsh-programming-related
+source $ZDOTDIR/zsh-autoloads
 source $ZDOTDIR/zsh-bindings
