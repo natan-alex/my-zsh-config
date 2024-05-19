@@ -1,2 +1,0 @@
-Install powerlevel10k
-Go to zsh-plugins file and then download the github repos to the ./plugins folder
